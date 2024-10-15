@@ -587,8 +587,8 @@ void exibir(const char *pergunta)
 {
     lcd_1.setCursor(2, 0);
     lcd_1.print(pergunta);
-    // Se a pergunta for maior que 16 caracteres, desloca a pergunta
-
+  
+    // Desloca a pergunta
     for (int i = 0; i < strlen(pergunta); i++)
     {
         // Desloca para a esquerda
